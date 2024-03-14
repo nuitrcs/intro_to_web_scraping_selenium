@@ -10,4 +10,6 @@ It is also a good practice to create a new environment to avoid any issue with d
 
 ```console
 conda create -n webscraping python=3.9 pandas matplotlib jupyterlab
+conda activate webscraping
+pip install webdriver-manager
 ```
