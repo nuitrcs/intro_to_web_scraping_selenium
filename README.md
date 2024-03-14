@@ -3,7 +3,6 @@
 ## General Information
 Selenium is a browser automation tool that allows users to interact with html elements from any website. In this workshop, we will introduce attendees to Selenium and ChromeDriver, a separate executable that facilitate communication between Selenium and Google Chrome. Attendees will learn to deploy these tools to automatically search for and grab data from websites.
 
-## Prerequisites
 ## Preworkshop Setup
 Please have Anaconda installed as we will use Jupyter Notebook/Lab. 
 
