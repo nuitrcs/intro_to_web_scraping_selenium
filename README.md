@@ -25,3 +25,10 @@ pip install webdriver-manager
 
 ## The day-of
 If you launch Jupyter Lab from terminal, remember to activate the environment first. If you launch Jupyter Lab via Anaconda, from the dropdown menu next to Channels, choose webscraping. 
+
+
+### Works cited
+https://selenium-python.readthedocs.io/locating-elements.html
+https://www.selenium.dev/selenium/docs/api/py/webdriver_remote/selenium.webdriver.remote.webdriver.html
+https://www.scrapingbee.com/blog/selenium-python/
+https://oxylabs.io/blog/selenium-web-scraping
