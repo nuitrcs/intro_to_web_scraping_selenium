@@ -9,7 +9,7 @@ Please have Anaconda installed as we will use Jupyter Lab.
 It is also a good practice to create a new environment to avoid any issue with dependencies. To create a new environment named webscraping, from your terminal:
 
 ```console
-conda create -n webscraping python=3.9 pandas matplotlib jupyterlab selenium
+conda create -n webscraping python=3.9 pandas matplotlib jupyterlab
 ```
 After this line finishes, you will have created a conda environment that includes selenium. To activate the environment,
 
@@ -17,7 +17,12 @@ After this line finishes, you will have created a conda environment that include
 conda activate webscraping
 ```
 
-As mentioned in the introduction, we will need a webdriver, and in our case ChromeDriver, to interact with websites. In the webscraping environment, run
+In the webscraping environment, run
+```console
+pip install selenium
+```
+
+As mentioned in the introduction, we will need a webdriver, and in our case ChromeDriver, to interact with websites. 
 
 ```console
 pip install webdriver-manager
